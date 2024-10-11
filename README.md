@@ -11,7 +11,7 @@ This repository contains examples of commonly used design patterns in Python. Ea
   - Examples: [Factory Examples](examples/creational/factory/)
 - [Abstract Factory](creational/abstract_factory.py)
   - Examples: [Abstract Factory Examples](examples/creational/abstract_factory/)
-- [Builder] (creational/builder.py)
+- [Builder](creational/builder.py)
   - Examples: [Builder Examples](examples/creational/builder/)
 ### Structural Patterns
 - TBD
