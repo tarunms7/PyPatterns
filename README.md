@@ -5,6 +5,7 @@ This repository contains examples of commonly used design patterns in Python. Ea
 ## Table of Contents
 
 ### Creational Patterns
+
 - [Singleton](creational/singleton.py)
   - Examples: [Singleton Examples](examples/creational/singleton/)
 - [Factory](creational/factory.py)
@@ -13,14 +14,21 @@ This repository contains examples of commonly used design patterns in Python. Ea
   - Examples: [Abstract Factory Examples](examples/creational/abstract_factory/)
 - [Builder](creational/builder.py)
   - Examples: [Builder Examples](examples/creational/builder/)
+- [Prototype](creational/prototype.py)
+  - Examples: [Prototype Examples](examples/creational/prototype/)
+
 ### Structural Patterns
+
 - TBD
 
 ### Behavioral Patterns
+
 - TBD
 
 ## Running Tests
 
 To verify the patterns, you can run the unit tests:
+
 ```bash
 pytest tests/
+```
