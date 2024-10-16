@@ -19,7 +19,8 @@ This repository contains examples of commonly used design patterns in Python. Ea
 
 ### Structural Patterns
 
-- TBD
+- [Adapter](structural/adaptor.py)
+  - Examples: [Adapter Examples](examples/structural/adapter/)
 
 ### Behavioral Patterns
 
