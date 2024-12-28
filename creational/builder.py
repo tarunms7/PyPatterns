@@ -12,6 +12,7 @@ class House:
         return f"House with {self.walls} walls, {self.doors} doors, {self.windows} windows, and {self.roof} roof"
 
 # Builder Interface
+#abstract
 class HouseBuilder(ABC):
     @abstractmethod
     def build_walls(self):
