@@ -11,7 +11,7 @@ from abc import ABC, abstractmethod
 # Product Interface
 class Vehicle(ABC):
     @abstractmethod
-    def create(self):
+    def create(self)->str:
         pass
 
 # Concrete Products
@@ -37,7 +37,6 @@ class VehicleFactory:
 # Example usage
 if __name__ == "__main__":
     factory = VehicleFactory()
-
     vehicle1 = factory.get_vehicle("car")
     print(vehicle1.create())  # Output: Car created!
 
